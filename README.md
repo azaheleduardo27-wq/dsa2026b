@@ -1,2 +1,2 @@
 # dsa2026b
-repositorio dsa
+repositorio de Estructura de Datos
