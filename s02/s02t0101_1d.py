@@ -8,11 +8,11 @@ import array as arr
 # f: numero decimal
 # d: numero decimal doble
 # u: carcateres unicode
-my_array = arr.array('i',[10,22,300,3,7,40,55,80,700,654,35])
+my_array = arr.array('i',[10,22,300,3,7,40,55,200,700,654,35])
 
 # iteracion automatica
 #for num in  my_array:
-    print(num)
+#  print(num)
 
 # acceso individual a los elementos
 #print(my_array[0]) # primer elemento
@@ -24,6 +24,15 @@ my_array = arr.array('i',[10,22,300,3,7,40,55,80,700,654,35])
 #print(len[my_array])
 
 # iteracion por indices
-for i in range(len(my_array)):
-    if my_array [i]%2==0
-       print(f"elemeto num {i+1}:{my_array[i]}")
+#for i in range(len(my_array)):
+   # if my_array [i] % 2 == 0:
+    #   print(f"elemeto num {i+1}:{my_array[i]}")
+
+#Busqueda de un elemento
+num_to_search = 200
+#modificando un valor
+my_array[7]=200
+try:
+    print(f"localizando (num_to_search): {my_array.index(num_to_search)}")
+except:
+ print(" numero no encontrado ")
