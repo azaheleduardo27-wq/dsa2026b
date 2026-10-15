@@ -1,4 +1,4 @@
-#importanto funciona array
+#importamos la funcion array
 #del modulo array y reenombrando
 #como arr
 from array import array as arr
